@@ -13,7 +13,6 @@
 
 body {
     font-family: 'Inter', sans-serif;
-    min-height: 100vh;
     background-color: var(--Background);
 }
 
@@ -46,10 +45,11 @@ nav img {
 .hero-section .hero-section__title b {
     color: var(--Color-tertiary);
 }
-.hero-section .hero-section__text {
+.hero-section .hero-section__text,
+footer .hero-section__text  {
     padding: 1rem 0;
     font-size: .8rem;
-    font-weight: 400;
+    font-weight: 500;
     color: var(--Color-secondary);
     line-height: 1.5;
 }
@@ -67,4 +67,27 @@ nav img {
     display: flex;
     gap: 1rem;
     margin-top: .8rem;
+}
+
+
+/* FOOTER STYLE */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0 .5rem;
+}
+footer .footer__logos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+footer .footer__img {
+    display: block;
+    width: 40vw;
 }
