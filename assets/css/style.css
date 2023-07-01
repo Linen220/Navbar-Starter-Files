@@ -1,3 +1,10 @@
+:root {
+    --Background: #f3ede5;
+    --Color-primary: #133416;
+    --Color-secondary: #8d8c8b;
+    --Color-tertiary: #f7b300;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +14,7 @@
 body {
     font-family: 'Inter', sans-serif;
     min-height: 100vh;
+    background-color: var(--Background);
 }
 
 
@@ -15,9 +23,48 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    width: 90%;
+    margin: 1rem auto;
 }
 
 nav img {
     display: block;
+}
+
+
+/* HERO SECTION STYLE */
+.hero-section {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+.hero-section .hero-section__title {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: var(--Color-primary);
+}
+.hero-section .hero-section__title b {
+    color: var(--Color-tertiary);
+}
+.hero-section .hero-section__text {
+    padding: 1rem 0;
+    font-size: .8rem;
+    font-weight: 400;
+    color: var(--Color-secondary);
+    line-height: 1.5;
+}
+.hero-section .hero-section__btn {
+    border-style: none;
+    outline: none;
+    border-radius: .2rem;
+    padding: 1rem 1.8rem;
+    font-weight: 700;
+    font-size: .8rem;
+    background-color: var(--Color-primary);
+    color: white;
+}
+.hero-section .hero-section__icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: .8rem;
 }
