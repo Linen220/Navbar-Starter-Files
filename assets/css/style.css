@@ -1,0 +1,69 @@
+/* VARIABLE */
+/* DEFAULT STYLES */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f3ede5;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+.btn-primary {
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #133416;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  padding: 18px 35px;
+}
+
+.main-menu,
+.sign-in {
+  display: none;
+}
+
+/* HEADER STYLES */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 40px;
+}
+
+/* HERO SECTION STYLES */
+.hero {
+  padding: 0 20px;
+}
+.hero__title {
+  font-size: 2.4rem;
+  color: #000000;
+}
+.hero__title span {
+  color: #f7b300;
+}
+.hero__text {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 15px 0;
+  color: #8d8c8b;
+}
+
+/*# sourceMappingURL=style.css.map */
